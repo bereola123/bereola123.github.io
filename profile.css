@@ -1,0 +1,75 @@
+body{
+	margin:20px auto;
+	background-color:#b2fcff;
+}
+#me{
+	padding:15px;
+	text-align:center;
+}
+#HU{
+	padding:15px;
+	text-align:center;
+}
+#facts{
+	padding:15px;
+	text-align:center;
+}
+img.me{
+	width:auto;
+	height:50%;
+	border-radius:15px;
+	border:1px solid black;
+}
+img.logo{
+	width:auto;
+	height:25%;
+}
+img.hu{
+	width:auto;
+	height:50%;
+	border-radius:15px;
+	border:1px solid black;
+}
+img.music{
+	width:auto;
+	height:50%;
+	border-radius:15px;
+	border:1px solid black;
+}
+img.sj{
+	width:auto;
+	height:75%;
+	border-radius:15px;
+	border:1px solid black;
+}
+img.chance{
+	width:auto;
+	height:50%;
+}
+li{
+	padding:20px;
+	font-family:Verdana;
+}
+ul{
+	text-align:center;
+}
+a{
+	font-size: 30px;
+	text-decoration:;
+	color:red;
+	background-color:#274282;
+	font-variant:small-caps;
+	font-family:Verdana;
+}
+p{
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	font-variant: small-caps;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	font-family:Verdana;
+}
