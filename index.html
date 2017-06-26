@@ -1,14 +1,39 @@
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<h1>This is the first heading</h1>
-		<h1 id="second">This is the second heading</h1>
-		<h1 id="third" class="styled">This is the <span id="italics">third</span> heading</h1>
-		<a href="google.com">Google</a>
-		<div>
-			<p><a href="google.com">Google</a></p>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>A Place to Practice Libraries</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+  </script>
+</head>
+<body>
+  <div id="colorBox">
+  </div>
+  <button id="show" onclick="changeColor()">
+    change color
+  </button>
+
+  <div class="container">
+    <h1>Using Libraries</h1>
+    <ul>
+      <li>cut and paste the code into main.js</li>
+      <li>now, use the function to add elements to the list</li>
+    </ul>
+    <img id="google" src="http://www.sitepronews.com/wp-content/uploads/2016/07/Google.png">
+  </div>
+
+  <input type="text" id="textBox">
+    <button id="hide" onclick="hideImage()">
+      hide image
+    </button>
+    <button id="show" onclick="showImage()">
+      show image
+    </button>
+
+    <button id="border" onclick="addBorder()">
+      add border
+    </button>
+  <script src="main.js"></script>
+</body>
 </html>

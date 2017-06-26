@@ -1,36 +1,12 @@
-h1/*makes all of the h1 red*/{
-	color: red; 
-	text-decoration:underline gold;
+#colorBox{
+	background-color:red;
+	width: 100px;
+	height: 100px;
 }
-#second/*makes only one specific id blue*/{
-	color: blue;
-	text-decoration:underline red;
+
+#colorBox.blue{
+	background-color:blue;
 }
-.styled/*anything identified with this class can change with these properties*/{
-	color: gold;
-	text-decoration:underline blue;
+img.border{
+	border:3px solid black;
 }
-p{
-}
-p a /*adding a comma between the p and a tags styles each selector individually*/{
-	/*can use actual word of color or hex number color*/
-}
-#italics{
-	font-style: italic;
-}
-div{
-/*
-	height:70px;
-	width:70px;
-*/
-	border:1px solid black;
-	text-align:center;
-	padding:10px;
-	margin-left:40px;
-	border-top: 2px solid red;
-}
-/*
-selector{
-	property:value;
-}
-*/
