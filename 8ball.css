@@ -1,0 +1,58 @@
+body{
+	width:300px;
+	margin:100px auto;
+	display:block;
+	background-color: #cccccc;
+}
+button{
+	padding:5px;
+	border-radius:15px;
+	outline:none;
+}
+input{
+	padding:5px;
+}
+span{
+	color:red;
+}
+h3{
+	text-align: center;
+	font-size:15px;
+}
+.button{
+	font-family:"Times New Roman";
+}
+.eight{
+	text-align:center;
+	margin:10px auto;
+	font-family:Impact;
+	font-size:70px;
+
+}
+.title{
+	margin:20px auto;
+	padding:10px;
+	background-color:white;
+}
+.ball{
+	width:200px;
+	height:200px;
+	margin:20px auto;
+	padding:10px;
+	background-color:black;
+	border-radius: 400px;
+}
+.circle{
+	width:100px;
+	height:100px;
+	margin:25px auto;
+	padding:15px;
+	background-color:white;
+	border-radius: 400px;
+}
+#ask{
+	width: 250px;
+	border-radius:15px;
+	border-style:groove;
+	outline: none; 
+}
