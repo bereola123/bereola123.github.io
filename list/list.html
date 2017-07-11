@@ -1,0 +1,11 @@
+<!-- list.html -->
+<html>
+  <body>
+    <h1>Student List</h1>
+    {% for s in students %}
+    <a href= "/onestudent?id={{s.key.id()}}">Profile</a>
+    {{s['name']}} {{s['grade']}} {{s['school']}}
+    <br>
+    {% endfor %}
+  </body>
+</html>

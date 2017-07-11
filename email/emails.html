@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<ul>
+		{% for email in emails %}
+			<li>{{email}}</li>
+		{% endfor %}
+		</ul>
+
+		<ul>
+		{% for email in emails %}
+			<li>{{email['sender']}}</li>
+		{% endfor %}
+		</ul>
+
+		<ul>
+		{% for email in emails %}
+			{% if email['sender'] != 'fakeaccount@gmail.com' %}
+			<li>{{email['sender']}}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	</body>
+</html>
